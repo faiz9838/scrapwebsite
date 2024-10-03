@@ -1,0 +1,152 @@
+#container-1 .hero h1 {
+  animation: 1s ease-out 0s 1 slideInTop;
+}
+
+#introduction .container .card .row #img-wrp .img-fluid {
+  animation: 1s ease-out 0s 1 imgSlideInLeft;
+}
+#introduction .container .card .row .content-body {
+  animation: 1s ease-out 0s 1 contentSlideInLeft;
+}
+
+#container-2 .container .row .col .card {
+  animation: 1s ease-out 0s 1 cardSlideInLeft;
+}
+
+#container-3 .container .row .col #card1 {
+  animation: 1s ease-in 0s 1 cardSlideInleft;
+}
+#container-3 .container .row .col #card2 {
+  animation: 1s ease-in 0s 1 cardSlideInRight;
+}
+
+#container-3 .container .btn {
+  animation: 1.5s ease-in 0s 1 btnSlideInTop;
+}
+
+#container-5 .container #card1 {
+  animation: 1.2s ease-out 0s 1 SlideInLeft;
+}
+
+#container-5 .container #card2 {
+  animation: 1.2s ease-out 0s 1 SlideInRight;
+}
+
+#container-6 .container .card .card-body .card-text {
+  animation: 1.5s ease-in 0s 1 btnSlideInTop;
+}
+
+#container-6 .container .card .btn {
+  animation: 2.7s ease-in 0s 1 btnSlideInTop;
+}
+
+#container-7 .container .row #card-1,
+#card-3,
+#card-5,
+#card-7 {
+  animation: 1.2s ease-out 0s 1 SlideInRight;
+}
+
+#container-7 .container .row #card-2,
+#card-2,
+#card-6,
+#card-8 {
+  animation: 1.2s ease-out 0s 1 SlideInLeft;
+}
+
+#contact-container .container .row .img-sec img {
+  animation: 1.2s ease-out 0s 1 SlideInRight;
+}
+
+#contact-container .container .row #contact-form {
+  animation: 1.2s ease-out 0s 1 SlideInLeft;
+}
+
+#container-8 #part-1 .row .btn {
+  animation: 2.7s ease-in 0s 1 btnSlideInTop;
+}
+
+#container-8 #part-2 .row p {
+  animation: 2.7s ease-in 0s 1 btnSlideInTop;
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes imgSlideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes contentSlideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes cardSlideInLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes cardSlideInleft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes cardSlideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes btnSlideInTop {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes SlideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes SlideInRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
